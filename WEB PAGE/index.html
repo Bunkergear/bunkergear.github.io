@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                <img src="img/30 logo.png" alt="" class="nav__logo-img"><span>BUNKER GEAR</span></a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="index.html" class="nav__link">Home</a></li>
+
+                  <li><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Servicios <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="catalogos.html" class="dropdown__link">
+                              <i class="ri-shopping-basket-fill"></i> Catálogos
+                           </a>                          
+                        </li>
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                     </ul>
+                  </li>
+                  <li><a href="contactos.html" class="nav__link">Contacto</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+<!--=============== SLIDER  HEADER ===============-->
+
+<section class="container">
+	<div class="slider-wrapper">
+		<div class="slider">
+			<img id="slide-1" src="img/Mesa de trabajo 1-100.jpg" alt="3D rendering of an imaginary orange planet in space" />
+			<img id="slide-2" src="img/Mesa de trabajo 2-100.jpg" alt="3D rendering of an imaginary green planet in space" />
+			<img id="slide-3" src="img/Mesa de trabajo 4-100.jpg" alt="3D rendering of an imaginary blue planet in space" />
+		</div>
+		<div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			<a href="#slide-3"></a>
+		</div>
+	</div>
+</section>
+
+<!--=============== CARDS ===============-->
+
+<div class="container">
+
+    <h1 class="heading">SERVICIOS</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/icon-1.png" alt="">
+            <h3>Seguridad Perimetral</h3>
+            <p>Protege tu empresa con nuestro servicio de seguridad perimetral, diseñado para prevenir intrusiones y garantizar un entorno seguro.</p>
+            <a href="#" class="btn">Ver Catálogo</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-2.png" alt="">
+            <h3>Seguridad Personal EPP</h3>
+            <p>Garantiza la protección de tu equipo con nuestros productos de seguridad EPP, proporcionando el equipo de protección personal adecuado para cada entorno de trabajo.</p>
+            <a href="#" class="btn">Ver Catálogo</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-3.png" alt="">
+            <h3>Uniformes y Merchandising</h3>
+            <p>Potencia tu marca con nuestros uniformes corporativos y merchandising personalizados. ¡Calidad, estilo y profesionalismo en cada detalle!</p>
+            <a href="#" class="btn">Ver Catálogo</a>
+        </div>
+
+        
+
+    </div>
+
+</div>
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
