@@ -448,7 +448,8 @@ img {
 }
 
 .container .box-container .box img{
-  height: 80px;
+  height: 100px;
+ display: contents;
 }
 
 .container .box-container .box h3{
@@ -486,4 +487,37 @@ img {
   .container{
       padding:20px;
   }
+}
+
+/* Estilos generales para la sección de aliados */
+.aliados {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.aliados h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Contenedor para los logos */
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Estilo de cada logo */
+.logos img {
+  max-width: 120px; /* Tamaño máximo de los logos */
+  height: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.logos img:hover {
+  opacity: 1; /* Efecto hover para resaltar los logos */
 }
